@@ -22,10 +22,6 @@ a {
     font-family: Raleway, Helvetica, sans-serif;
     font-size: 0.8em;
     font-weight: 700;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-decoration: none;
 }
 
 #header h1 {
@@ -35,4 +31,24 @@ a {
 
 #header li {
     list-style-type: none;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    height: 48px;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
 }
